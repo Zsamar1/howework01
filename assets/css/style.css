@@ -35,7 +35,7 @@ h1 .seo
 }
 
 /*applies the below settings to the unordered list within the header*/
-.header ul 
+.header nav 
 {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,13 +45,14 @@ h1 .seo
 }
 
 /*the below list style of none is applied to the header unordered list*/
-.header ul 
+.header nav 
 {
     list-style-type: none;
 }
 
+
 /*displays the list items under header>unordered list>list as inline-block*/
-.header ul li 
+.header nav a 
 {
     display: inline-block;
     margin-left: 25px;
