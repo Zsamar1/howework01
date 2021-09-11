@@ -1,31 +1,41 @@
+/*Universal selector, applies to the whole site*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+/*applies background color to the body of the page*/
+body 
+{
     background-color: #d9dcd6;
 }
 
-.header {
+/*applies padding of 20px, font family, background color and text color to the header*/
+.header 
+{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-
-h1 {
+/*displays the h1 element as inline-block*/
+h1 
+{
     display: inline-block;
     font-size: 48px;
 }
 
-h1 .seo {
+/*changes the color of the letters seo within the word Horiseon*/
+h1 .seo 
+{
     color: #d9dcd6;
 }
 
-.header ul {
+/*applies the below settings to the unordered list within the header*/
+.header ul 
+{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,25 +43,36 @@ h1 .seo {
     font-size: 20px;
 }
 
-.header ul {
+/*the below list style of none is applied to the header unordered list*/
+.header ul 
+{
     list-style-type: none;
 }
 
-.header ul li {
+/*displays the list items under header>unordered list>list as inline-block*/
+.header ul li 
+{
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+/*applies a color to the anchor tags*/
+a 
+{
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+/*changes the font size of all paragraphs <p> to 16px*/
+p 
+{
     font-size: 16px;
 }
 
-.hero {
+/*this class below defines the background image for the website, (height/width/margin/color/position
+and the url for the image*/
+.hero 
+{
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,23 +81,31 @@ p {
     background-position: center;
 }
 
-.float-left {
+/*this below class floats the object to the left*/
+.float-left 
+{
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+/*the below class floats the object to the right*/
+.float-right 
+{
     float: right;
     margin-left: 25px;
 }
 
-.content {
+/*width/display and margin is applied to the content CLASS*/
+.content 
+{
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/*this benefit class applies margin/padding/float/width/height/fontfamily/background-color*/
+.benefits 
+{
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,55 +116,80 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*this defines the margin for benefit-lead, used for the lead generation image within html*/
+.benefit-lead 
+{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/*this defines the margin for benefit-brand, used for the brand awareness image within html*/
+.benefit-brand 
+{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
+/*this defines the margin for benefit-lead, used for the lead generation image within html*/
+.benefit-cost 
+{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+/*class benefit-lead h3 applies a margin of 10px and aligns the text to centre for h3*/
+.benefit-lead h3 
+{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/*class benefit-brand applies a margin of 10px and aligns the text to centre for h3*/
+.benefit-brand h3 
+{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+/*class benefit-cost applies a margin of 10px and aligns the text to centre for h3*/
+.benefit-cost h3 
+{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+/*class benefit-lead img is displayed as block, with top/bottom margin of 10, and left right margin set to auto,
+and a max width of 150 px*/
+.benefit-lead img 
+{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+/*class benefit-brand img is displayed as block, with top/bottom margin of 10, and left right margin set to auto,
+and a max width of 150 px*/
+.benefit-brand img 
+{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
+
+/*class benefit-cost img is displayed as block, with top/bottom margin of 10, and left right margin set to auto,
+and a max width of 150 px*/
+.benefit-cost img 
+{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/*the below search engine optimization class sets the bottom margin to 20px, applies a padding of 50px and a height of 300px,
+also defines a font-family with background color and color of text*/
+.search-engine-optimization 
+{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,7 +198,11 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+
+/*the below online reputation management class sets the bottom margin to 20px, applies a padding of 50px and a height of 300px,
+also defines a font-family with background color and color of text*/
+.online-reputation-management 
+{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,7 +211,10 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+/*the below social media marketing class sets the bottom margin to 20px, applies a padding of 50px and a height of 300px,
+also defines a font-family with background color and color of text*/
+.social-media-marketing 
+{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -162,40 +223,56 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/*this below defines the max height of the search engine optimization image to 200px*/
+.search-engine-optimization img 
+{
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/*this below defines the max height of the online reputation management image to 200px*/
+.online-reputation-management img 
+{
     max-height: 200px;
 }
 
-.social-media-marketing img {
+/*this below defines the max height of the social media marketing image to 200px*/
+.social-media-marketing img 
+{
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/*this below defines the margin-bottom and font-size for the h2 header within the search engine optimization class*/
+.search-engine-optimization h2 
+{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/*this below defines the margin-bottom and font-size for the h2 header within the online reputation management*/
+.online-reputation-management h2 
+{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+/*this below defines the margin-bottom and font-size for the h2 header within the social media marketing class*/
+.social-media-marketing h2 
+{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
+/*the below defined settings applies to the footer of the webpage*/
+.footer 
+{
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/*h2 header of the footer has a font size of 20px*/
+.footer h2 
+{
     font-size: 20px;
 }
